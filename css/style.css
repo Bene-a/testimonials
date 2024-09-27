@@ -1,0 +1,35 @@
+/* *{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.testimonial-grid{
+    display: grid;
+    gap:1.5rem;
+    grid-template-rows: repeat(4, 1fr);
+}
+.testimonial-profile{
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-profile img{
+    border-radius: 50%;
+}
+.daniel{
+    background-color:violet;
+}
+.jonathan{
+    background-color:hsl(217, 19%, 35%);
+}
+.jeanette{
+    background-color: hsl(0, 0%, 100%);
+}
+.patrick{
+    background-color: hsl(219, 29%, 14%);
+}
+.kira{
+    background-color:  hsl(0, 0%, 100%);
+}
+
